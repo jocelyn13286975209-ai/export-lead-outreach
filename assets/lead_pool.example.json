@@ -1,0 +1,42 @@
+{
+  "_comment": "SYNTHETIC EXAMPLE DATA ONLY. All numbers/names below are fictitious placeholders (555 = reserved fictional line prefix).",
+  "leads": [
+    {
+      "name": "Example Solar Systems Ltd",
+      "phone": "+000 555 100 2001",
+      "email": "sales@example-solar.test",
+      "category": "solar panels / inverters",
+      "city": "Example City",
+      "type": "终端进口商/批发",
+      "source": "https://example-directory.test/solar",
+      "credential": "site lists wa.me/5551002001",
+      "wa_link": "https://wa.me/5551002001",
+      "wa_verified": true,
+      "note": "Synthetic record for schema demonstration"
+    },
+    {
+      "name": "Sample Hardware Traders",
+      "phone": "+000 555 100 2002",
+      "email": "info@example-hardware.test",
+      "category": "building materials / tiles",
+      "city": "Sample Town",
+      "type": "终端进口商/批发",
+      "source": "https://example-yellowpages.test/hardware",
+      "credential": "yellow pages mobile number, no WhatsApp marker",
+      "wa_verified": false,
+      "note": "Synthetic pending-verification record"
+    },
+    {
+      "name": "Demo Packaging Co",
+      "phone": "+000 555 100 2001",
+      "email": "",
+      "category": "paper & plastic packaging",
+      "city": "Example City",
+      "type": "终端进口商/批发",
+      "source": "https://example-maps.test/packaging",
+      "credential": "Google Maps listing with mobile",
+      "wa_verified": false,
+      "note": "Synthetic duplicate-number example for dedup demo"
+    }
+  ]
+}
