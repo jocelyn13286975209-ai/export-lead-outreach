@@ -1,0 +1,42 @@
+# Real configuration and lead data — never commit
+config.json
+*.local.json
+leads.json
+named.json
+out.json
+*.normalized.json
+*.named.json
+leads.xlsx
+
+# Real customer data / exports
+*_客户*.xlsx
+*_客户*.csv
+*_leads_*.json
+real_data/
+working/
+data/
+
+# Phone automation runtime artifacts
+invalid_numbers.txt
+*.png
+*.jpg
+*.jpeg
+*.xml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Packaging output
+dist/
+*.zip
