@@ -1,0 +1,27 @@
+{
+  "_comment": "Copy to config.json and fill with your OWN values. NEVER commit a filled config.json.",
+  "your_name": "{你的名字}",
+  "your_company": "{你的公司}",
+  "your_website": "https://example.com/en/",
+  "origin_city": "{起运城市}",
+  "target_country": "{目标国家}",
+  "target_cities": ["{城市1}", "{城市2}"],
+  "country_calling_code": "000",
+  "target_products": ["{品类1}", "{品类2}"],
+  "exclude_types": ["货代", "清关行", "同行", "出口商", "代采平台"],
+  "naming_country_prefix": "{国家}",
+  "lead_goal": 100,
+  "send_window_local": "14:00-22:00",
+  "target_timezone_utc_offset": 3,
+  "phone": {
+    "adb_binary": "<path-to-adb>",
+    "device_serial": "<your-device-serial>",
+    "whatsapp_packages": ["com.whatsapp", "com.whatsapp.w4b"],
+    "card_image_on_phone": "/sdcard/DCIM/Camera/card_latest.jpg"
+  },
+  "cloud_sheet": {
+    "provider": "feishu",
+    "folder_token": "<your-folder-token>",
+    "spreadsheet_token": "<your-spreadsheet-token>"
+  }
+}
